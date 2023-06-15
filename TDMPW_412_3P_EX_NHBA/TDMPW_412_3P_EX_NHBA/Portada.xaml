@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:local="clr-namespace:TDMPW_412_3P_EX_NHBA.MVVM.Views"
+             x:Class="TDMPW_412_3P_EX_NHBA.Portada"
+             Title="Portada"
+             SelectedTabColor="Green"
+             BackgroundColor="Aqua"
+             
+             >
+    <ContentPage Title="Inicio" IconImageSource="music.png">
+        <ScrollView>
+             <Grid x:Name="background">
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Offset="0.0" Color="#051937"/>
+                        <GradientStop Offset="0.23" Color="#0400ff"/>
+                        <GradientStop Offset="0.55" Color="#28db55"/>
+                        <GradientStop Offset="0.86" Color="#605fab"/>
+                        <GradientStop Offset="0.0" Color="#790975"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Grid Margin="25" RowDefinitions=".10*,.50*,.10*, .10*,.10*, .10*" ColumnDefinitions=".33*, .33*, .33*" >
+                    <Label Text="Examen Final TDMPW"
+                           FontFamily="music"
+                           Grid.ColumnSpan="3"
+                           Grid.Row="0"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"
+                           FontSize="45"
+                           BackgroundColor="White"
+                           />
+                    <toolkit:MediaElement WidthRequest="300"
+                                          HeightRequest="300"
+                                          Grid.Row="1"
+                                          Grid.ColumnSpan="3"
+                                          HorizontalOptions="Center"
+                                          VerticalOptions="Center"
+                                          Margin="10"
+                                          Source="embed://una_vez.mp4"
+                                          x:Name="mediaElement"
+                                          />
+                    <Frame Grid.Row="2" Grid.ColumnSpan="3" Margin="10" CornerRadius="22" HasShadow="True" BorderColor="Transparent"></Frame>
+
+                    <Label Text="Una vez"
+                           FontFamily="trap"
+                           Grid.Row="2"
+                           Grid.ColumnSpan="3"
+                           VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="Center"
+                           FontSize="40"
+                           x:Name="cancion"
+                           />
+                    <Frame Grid.Row="3" Grid.ColumnSpan="3" Margin="10" CornerRadius="22" HasShadow="True" BorderColor="Transparent"></Frame>
+                    <Label Text="Bad Bunny"
+                           FontFamily="trap"
+                           Grid.Row="3"
+                           Grid.ColumnSpan="3"
+                           VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="Center"
+                           FontSize="25"
+                           x:Name="artista"
+                           />
+                    <Button Grid.Row="4"
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            Text="▶️"
+                            FontSize="62"
+                            BackgroundColor="Transparent"
+                            x:Name="Play"
+                            Clicked="Play_Clicked"
+                           
+                            />
+                    <Button Grid.Row="4"
+                            Grid.RowSpan="2"
+                            Grid.Column="2"
+                            Text="⏩"
+                            FontSize="62"
+                            BackgroundColor="Transparent"
+                            x:Name="Next"
+                            Clicked="Next_Clicked"
+                            />
+                    <Button Grid.Row="4"
+                            Grid.RowSpan="2"
+                            Grid.Column="0"
+                            Text="⏪"
+                            FontSize="62"
+                            BackgroundColor="Transparent"
+                            x:Name="Previous"
+                            Clicked="Previous_Clicked"
+                            />
+
+                </Grid>
+              </Grid>
+        </ScrollView>
+    </ContentPage>
+    <local:MateriaView Title="Materia" IconImageSource="subject.png" ></local:MateriaView>
+    <local:SemestreView Title="Semestre" IconImageSource="semestre.png" ></local:SemestreView>
+</TabbedPage>

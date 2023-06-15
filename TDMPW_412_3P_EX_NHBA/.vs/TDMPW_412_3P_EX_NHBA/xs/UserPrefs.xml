@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{371D6A4B-5FCA-4A84-9EB6-20CA131A3C90}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TDMPW__412__3P__EX__NHBA PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B631A89A-FC19-4DE6-AB06-4672F6B525FF" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TDMPW_412_3P_EX_NHBA/MVVM/Models/Materia.cs">
+    <Files>
+      <File FileName="TDMPW_412_3P_EX_NHBA/MVVM/Models/Materia.cs" Line="9" Column="25" IsPinned="True" />
+      <File FileName="TDMPW_412_3P_EX_NHBA/MVVM/Views/MateriaView.xaml" Line="78" Column="20" IsPinned="True" />
+      <File FileName="TDMPW_412_3P_EX_NHBA/MVVM/ViewModels/MateriaViewModel.cs" Line="21" Column="13" IsPinned="True" />
+      <File FileName="TDMPW_412_3P_EX_NHBA/Portada.xaml" Line="1" Column="1" />
+      <File FileName="TDMPW_412_3P_EX_NHBA/MVVM/Views/MateriaView.xaml.cs" Line="1" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TDMPW_412_3P_EX_NHBA" expanded="True">
+            <Node name="TDMPW_412_3P_EX_NHBA" expanded="True">
+              <Node name="MVVM" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="Materia.cs" selected="True" />
+                </Node>
+                <Node name="ViewModels" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="MateriaView.xaml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True">
+                <Node name="Images" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B631A89A-FC19-4DE6-AB06-4672F6B525FF" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

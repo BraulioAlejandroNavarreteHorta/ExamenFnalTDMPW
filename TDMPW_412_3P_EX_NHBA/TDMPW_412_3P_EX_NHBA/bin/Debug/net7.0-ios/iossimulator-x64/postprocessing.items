@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TDMPW_412_3P_EX_NHBA.app/TDMPW_412_3P_EX_NHBA">
+      <BCSymbolMapName>TDMPW_412_3P_EX_NHBA.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TDMPW_412_3P_EX_NHBA.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/braulioalejandronavarretehorta/Desktop/Cuarto Semestre/TALLER WINDOWS/TDMPW_412_3P_EX_NHBA/TDMPW_412_3P_EX_NHBA/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>TDMPW_412_3P_EX_NHBA.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/braulioalejandronavarretehorta/Desktop/Cuarto Semestre/TALLER WINDOWS/TDMPW_412_3P_EX_NHBA/TDMPW_412_3P_EX_NHBA</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
